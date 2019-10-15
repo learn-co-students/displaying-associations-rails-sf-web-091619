@@ -3,7 +3,6 @@
 <ul>
   <% @posts.each do |p| %>
     <li><%= link_to p.title, post_path(p) %></li>
-    <li><<%= p.category.name %>>
   <% end %>
 </ul>
 
